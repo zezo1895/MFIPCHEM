@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MFIPCHEM/static/css/main.b6a4f0a2.css",
+    "main.js": "/MFIPCHEM/static/js/main.f76ecb0e.js",
+    "static/js/488.6d7c9210.chunk.js": "/MFIPCHEM/static/js/488.6d7c9210.chunk.js",
+    "static/media/photo_2024-12-24_00-56-57.jpg": "/MFIPCHEM/static/media/photo_2024-12-24_00-56-57.31a85e02af8b47487bf7.jpg",
+    "static/media/photo_2024-12-24_00-56-50.jpg": "/MFIPCHEM/static/media/photo_2024-12-24_00-56-50.708851802bde183908ae.jpg",
+    "static/media/photo_2024-12-24_01-14-53.jpg": "/MFIPCHEM/static/media/photo_2024-12-24_01-14-53.d07367e1b811748caefd.jpg",
+    "static/media/mfipchem.png": "/MFIPCHEM/static/media/mfipchem.7fbedc299315bcfb1927.png",
+    "static/media/logo.svg": "/MFIPCHEM/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MFIPCHEM/index.html",
+    "main.b6a4f0a2.css.map": "/MFIPCHEM/static/css/main.b6a4f0a2.css.map",
+    "main.f76ecb0e.js.map": "/MFIPCHEM/static/js/main.f76ecb0e.js.map",
+    "488.6d7c9210.chunk.js.map": "/MFIPCHEM/static/js/488.6d7c9210.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6a4f0a2.css",
+    "static/js/main.f76ecb0e.js"
+  ]
+}
