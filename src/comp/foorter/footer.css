@@ -1,0 +1,35 @@
+.footer{
+  padding: 15px;
+}
+.footer ul{
+margin: 0;
+}
+.footer li{
+  display: inline;
+  margin: 0 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .3s;
+  text-align: center;
+}
+.footer .text-footer{
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #003366;
+  letter-spacing: 3px;
+}
+.footer li:hover{
+
+  transition: .3s;
+color: #003366;
+border: 2px solid #003366;
+border-radius: 5px;
+padding: 5px 3px;
+
+}
+@media (max-width:650px) {
+.footer ul li{
+  display: block;
+  margin: 10px 0px;
+}
+}

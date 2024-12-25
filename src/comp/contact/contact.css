@@ -1,0 +1,144 @@
+.contact {
+  align-items: center;
+  justify-content: space-around;
+
+}
+.contact .title h1 span {
+align-self: center;
+margin-right: 10px;
+font-size: 2.5rem;
+color: var(--subtitle);
+}
+.contact .title h1{
+   color: #003366;
+   font-size: 2.5rem;
+   font-weight: 600;
+}
+.contact .title p{
+   color: var(--subtitle);
+   margin-top: 10px;
+   line-height: 25px;
+}
+.contactgem{
+   flex-direction: column;
+}
+.contactgem form{
+   flex-direction: column;
+   gap: 50px;
+   padding: 20px 20px;
+   
+}
+.contactgem form .d-flex{
+   align-items: center;
+   gap: 12px;
+}
+.contactgem form label{
+   color:var(--title) ;
+}
+.contactgem form input ,.contactgem form textarea{
+   all: unset;
+   padding: .3rem;
+   width:17rem;
+   background-color: rgba(63 , 63, 70, 0.15);
+   border: 1px solid rgba(63 , 63, 70);
+   transition: .3s;
+   border-radius: 5px;
+  
+   
+}
+.contactgem form textarea{
+  width:60%;
+ min-height: 150px;
+   resize: vertical;
+   
+}
+.contactgem form input:focus ,.contactgem form textarea:focus{
+   border: 1px solid var(--blue);
+
+  
+}
+.contactgem form input:hover ,.contactgem form textarea:hover{
+   border: 1px solid var(--blue);
+}
+.contactgem form input{
+   margin-left: 1.5rem;
+}
+.contactgem form button{
+   padding:  15px 20px;
+   text-align: center;
+  color: var(--title);
+  background-color: #003366;
+  border-radius: 5px;
+  text-transform: capitalize;
+  opacity: .8;
+  font-size: 1rem;
+  font-weight: 500;
+width: 30%;
+ border: 1px solid;
+
+ /* margin-bottom: 10px; */
+}
+.contactgem form button:hover{
+   opacity: 1;
+border: 1px solid var(--blue);
+box-shadow: 1px 1px 1px var(--blue);
+transition: .3s;
+}
+.right .deve{
+   
+   width: 28rem;
+   transition: 1s;
+  
+}
+.right .deve:hover{
+   transform: scale(1.2);
+}
+
+@media(max-width:790px){
+   .contactgem form .d-flex{
+       flex-direction: column;
+   }
+   .contactgem form input ,.contactgem form textarea{
+       width: 100%;
+   }
+   .contactgem form input{
+       margin: 0;
+   }
+   .contactgem form button{
+    width: 40%;
+   }
+}
+@media(max-width:1200px){
+   .contact{
+       flex-wrap: wrap;
+   }
+   .right .deve{
+       width: 15rem;
+   }
+}
+.head-contact{
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: #003366;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: .4s;
+  
+  
+}
+.head-contact h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+.head-contact h1:hover{
+  transition: .4s ease-in-out;
+  scale: 1.1;
+  
+}
+
+
+/* ///////////////////////cart/////////// */
+

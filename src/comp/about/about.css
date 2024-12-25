@@ -1,0 +1,15 @@
+.text-quality{
+  width: 60%;
+}
+.anm{
+  transition: .4s ease-in-out;
+}
+.anm:hover{
+  transition: .4s ease-in-out;
+scale: 1.2;
+}
+@media (max-width:900px) {
+  .text-quality{
+    width: 100%;
+  }
+}
